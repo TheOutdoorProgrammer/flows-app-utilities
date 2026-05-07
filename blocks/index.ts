@@ -12,6 +12,7 @@ import subroutineDefinition from "./subroutineDefinition.ts";
 import subroutineSwitch from "./subroutineSwitch.ts";
 import timeout from "./timeout.ts";
 import loop from "./loop.ts";
+import unzipUrl from "./unzipUrl.ts";
 
 export const blocks = {
   capture,
@@ -28,4 +29,5 @@ export const blocks = {
   subroutineSwitch,
   timeout,
   loop,
+  unzipUrl,
 };
